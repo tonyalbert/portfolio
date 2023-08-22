@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <img class="absolute bottom-10 animate-bounce" :src="Arrow" alt="">
+            <img class="absolute bottom-0 animate-bounce" :src="Arrow" alt="">
 
         </div>
 
