@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-[#09090B]">
+    <section>
         <div class="flex flex-col justify-center items-center min-h-screen reative">
 
             <div class="flex">
@@ -22,18 +22,23 @@
                 </div>
             </div>
 
+            <img class="absolute bottom-10 animate-bounce" :src="Arrow" alt="">
+
         </div>
+
+        
     </section>
 </template>
 
 <script>
 import Me from '/me.png'
-import Arror from '/arrow.svg'
+import Arrow from '/arrow.svg'
 
 export default {
     data() {
         return {
-            me: Me
+            me: Me,
+            Arrow
         }
     },
 }
