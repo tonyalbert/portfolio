@@ -28,6 +28,7 @@
 
 <script>
 import Me from '/me.png'
+import Arror from '/arrow.svg'
 
 export default {
     data() {
