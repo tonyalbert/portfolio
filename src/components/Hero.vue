@@ -1,6 +1,6 @@
 <template>
     <section class="bg-[#09090B]">
-        <div class="flex flex-col items-center min-h-screen reative">
+        <div class="flex flex-col justify-center items-center min-h-screen reative">
 
             <div class="flex">
                 <div class="flex border-2 border-[#202020] p-3 justify-center rounded-full">
@@ -23,10 +23,6 @@
             </div>
 
         </div>
-
-        <a href="#section-2" class="absolute bottom-16 left-1/2 animate-bounce">
-            <img src="/arrow.svg" alt="">
-        </a>
     </section>
 </template>
 
