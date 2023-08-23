@@ -3,8 +3,6 @@
         <img class=" h-12 object-cover filter grayscale group-hover:grayscale-0 transition" :src="img" alt="">
         <h3 class="text-center text-white mt-4 font-semibold group-hover:text-black">{{ tecnologia }}</h3>
     </div>
-
-    
 </template>
 
 <script>    

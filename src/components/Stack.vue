@@ -1,5 +1,6 @@
 <template>
     <section class="px-8 py-12">
+        <h1 class="text-[#27AE60] text-xl font-bold mb-6">PRINCIPAIS TECNOLOGIAS</h1>
         <div class="grid grid-cols-2 gap-3">
             <CardStack  img="/Typescript.png" tecnologia="Typescript"/>
             <CardStack  img="/Node.png" tecnologia="NodeJs"/>
@@ -12,6 +13,10 @@
             <CardStack  img="/Oracle.png" tecnologia="Oracle"/>
             <CardStack  img="/Mongo.png" tecnologia="MongoDB"/>
         </div>
+    </section>
+
+    <section class="min-h-screen">
+
     </section>
 </template>
 
