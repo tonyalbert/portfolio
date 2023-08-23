@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "animejs": "^3.2.1",
+    "embla-carousel-vue": "^8.0.0-rc12",
     "scrollreveal": "^4.0.9",
     "vue": "^3.3.4"
   },
