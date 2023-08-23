@@ -16,14 +16,15 @@
                     </div>
                     <p class="text-[#828282] text-xl">Desenvolvedor Fullstack</p>
                 </div>
-                <div class="block mt-6">
+                <div class="block lg:flex mt-6">
                     <a href="/Currículo - Tony Albert.pdf" target="_blank"><button class="text-white text-sm xl:text-xl py-3 w-full px-6 font-semibold bg-[#27AE60] hover:bg-[#1A5E37] transition-colors hover:shadow-2xl shadow-[#27AE60]">Download CV</button></a>
                     <a><button class="text-white text-sm py-3 w-full px-6 font-semibold border mt-3 xl:text-xl xl:mt-0 xl:ml-6 hover:bg-white hover:text-[#27AE60] transition-colors">Contate-me</button></a>
                 </div>
             </div>
 
-            <img class="absolute bottom-0 animate-bounce" :src="Arrow" alt="">
-
+            <a class="absolute bottom-12 lg:bottom-8 2xl:bottom-16 animate-bounce" href="#sobre">
+                <img  :src="Arrow" alt="">
+            </a>
         </div>
 
         
