@@ -2,16 +2,16 @@
     <section class="px-8 py-12">
         <h1 class="text-[#27AE60] text-xl font-bold mb-6">PRINCIPAIS TECNOLOGIAS</h1>
         <div class="grid grid-cols-2 gap-3">
-            <CardStack  img="/Typescript.png" tecnologia="Typescript"/>
-            <CardStack  img="/Node.png" tecnologia="NodeJs"/>
-            <CardStack  img="/Vue.png" tecnologia="VueJs"/>
-            <CardStack  img="/PHP.png" tecnologia="PHP"/>
-            <CardStack  img="/Laravel.png" tecnologia="Laravel"/>
-            <CardStack  img="/javaScript.png" tecnologia="JavaScript"/>
-            <CardStack  img="/Nest.png" tecnologia="NestJs"/>
-            <CardStack  img="/MySQL.png" tecnologia="MySQL"/>
-            <CardStack  img="/Oracle.png" tecnologia="Oracle"/>
-            <CardStack  img="/Mongo.png" tecnologia="MongoDB"/>
+            <CardStack bdColor="4px solid #0385D2" img="/Typescript.png" tecnologia="Typescript"/>
+            <CardStack bdColor="4px solid #64B749" img="/Node.png" tecnologia="NodeJs"/>
+            <CardStack bdColor="4px solid #E0234E" img="/Nest.png" tecnologia="NestJs"/>
+            <CardStack bdColor="4px solid #3FB27F" img="/Vue.png" tecnologia="VueJs"/>
+            <CardStack bdColor="4px solid #35BEF8" img="/Tailwind.png" tecnologia="Tailwind"/>
+            <CardStack bdColor="4px solid #7377AD" img="/PHP.png" tecnologia="PHP"/>
+            <CardStack bdColor="4px solid #F72C1F" img="/Laravel.png" tecnologia="Laravel"/>
+            <CardStack bdColor="4px solid #F7E018" img="/javaScript.png" tecnologia="JavaScript"/>
+            <CardStack bdColor="4px solid #E47834" img="/MySQL.png" tecnologia="MySQL"/>
+            <CardStack bdColor="4px solid #ED3237" img="/Oracle.png" tecnologia="Oracle"/>
         </div>
     </section>
 
