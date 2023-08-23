@@ -4,7 +4,7 @@
 
             <div class="flex">
                 <div class="flex border-2 border-[#202020] p-3 justify-center rounded-full">
-                    <img @click="runAnimation" class="rounded-full w-60" :src="me" alt="">
+                    <img @click="runAnimation" class="rounded-full w-52" :src="me" alt="">
                 </div>
             </div>
 
