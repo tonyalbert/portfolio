@@ -5,8 +5,16 @@
                 <h1>Logo</h1>
             </div>
 
-            <button><img :src="Menu" alt=""></button>
+            <div>
+                <button @click="ShowMenu = !ShowMenu">
+                    <div class="space-y-2">
+                        <span class="block w-3 h-0.5 bg-white"></span>
+                        <span class="block w-6 h-0.5 bg-white"></span>
+                    </div>
+                </button>
+            </div>
         </div>
+        
     </nav>
 </template>
 
@@ -16,7 +24,8 @@ import Menu from '/Menu.svg'
 export default {
     data() {
         return {
-            Menu
+            Menu,
+            ShowMenu: false
         }
     }
 }

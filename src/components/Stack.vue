@@ -1,6 +1,7 @@
 <template>
     <section class="px-8 py-12">
-        <h1 class="text-[#27AE60] text-xl font-bold mb-6">PRINCIPAIS TECNOLOGIAS</h1>
+        
+        <h1 class="text-[#27AE60] text-xl font-bold mb-6 text-center">PRINCIPAIS TECNOLOGIAS</h1>
         <div class="grid grid-cols-2 gap-3">
             <CardStack bdColor="4px solid #0385D2" img="/Typescript.png" tecnologia="Typescript"/>
             <CardStack bdColor="4px solid #64B749" img="/Node.png" tecnologia="NodeJs"/>
