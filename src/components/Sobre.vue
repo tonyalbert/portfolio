@@ -1,5 +1,5 @@
 <template>
-    <section id="sobre" class="px-8 py-12 lg:px-44">
+    <section id="sobre" class="px-8 py-12 lg:px-44 items-center headline">
         <div class="block border p-4 hover:bg-[#0e0e12] cursor-pointer border-white/10 rounded-lg">
             <h1 class="text-[#27AE60] font-bold mb-4">SOBRE MIM</h1>
             <p class=" text-white">
@@ -10,3 +10,12 @@
         </div>
     </section>
 </template>
+
+<script>
+export default {
+    created() {
+        ScrollReveal().reveal('.headline');
+    }
+}
+
+</script>
