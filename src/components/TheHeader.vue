@@ -10,6 +10,7 @@
                     <li class="hover:text-[#27AE60]"><a href="">Home</a></li>
                     <li class="hover:text-[#27AE60]"><a href="#sobre">Sobre</a></li>
                     <li class="hover:text-[#27AE60]"><a href="">Tecnologias</a></li>
+                    <li class="hover:text-[#27AE60]"><a href="">Projetos</a></li>
                     <li class="hover:text-[#27AE60]"><a href="">Carreira</a></li>
                 </ul>
                 <button class="lg:hidden" @click="ShowMenu = !ShowMenu">

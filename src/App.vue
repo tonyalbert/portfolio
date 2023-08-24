@@ -4,6 +4,7 @@
     <Hero />
     <Sobre />
     <Stack />
+    <Projetos />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Hero from './components/Hero.vue';
 import TheHeader from './components/TheHeader.vue';
 import Sobre from './components/Sobre.vue';
 import Stack from './components/Stack.vue';
+import Projetos from './components/Projetos.vue';
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Hero,
     TheHeader,
     Sobre,
-    Stack
+    Stack,
+    Projetos
   }
 }
 
