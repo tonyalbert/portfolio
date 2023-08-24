@@ -1,5 +1,5 @@
 <template>
-    <nav class="backdrop-blur-md bg-black/10 w-full py-5 px-8 lg:px-44 fixed z-20">
+    <nav class="backdrop-blur-md bg-black/10 w-full py-5 px-8 lg:py-7 lg:px-44 fixed z-20">
         <div class="flex justify-between">
             <div class="text-white">
                 <h1>Logo</h1>

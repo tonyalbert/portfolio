@@ -18,7 +18,7 @@
                 <div class="text-center text-3xl text-white mt-8">
                     <div class="mb-2">
                         <h1 class="font-semibold text-white">Olá! Sou</h1>
-                        <h1 class="font-semibold text-white">Tony Albert</h1>
+                        <h1 class="font-semibold text-white"><span class="text-[#27AE60] font-bold">{{ '<' }}</span> Tony Albert <span class="text-[#27AE60] font-bold">{{ '/>' }}</span></h1>
                     </div>
                     <p class="text-[#828282] text-center text-lg">Desenvolvedor Fullstack</p>
                 </div>

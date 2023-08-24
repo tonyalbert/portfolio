@@ -1,7 +1,7 @@
 <template>
     <section class="px-8 py-12 lg:px-44 2xl:px-96">
         
-        <h1 class="text-white text-xl lg:text-4xl font-bold text-center mb-12">Tecnologias</h1>
+        <h1 class="text-white text-xl lg:text-4xl font-bold text-center mb-12"><span class="text-[#27AE60] font-bold">{{ '<' }}</span> Tecnologias <span class="text-[#27AE60] font-bold">{{ '/>' }}</span></h1>
         <div class="grid grid-cols-2 lg:grid-cols-5 gap-3">
             <CardStack bdColor="4px solid #0385D2" img="/Typescript.png" tecnologia="Typescript"/>
             <CardStack bdColor="4px solid #64B749" img="/Node.png" tecnologia="NodeJs"/>
