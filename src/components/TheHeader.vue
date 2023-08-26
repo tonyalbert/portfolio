@@ -26,7 +26,16 @@
 
     <div 
         :class="{ 'w-8/12': ShowMenu, 'w-0': !ShowMenu }" 
-        class="lg:hidden fixed right-0 h-full z-30 backdrop-blur-md bg-black/50 transition-all">
+        class="lg:hidden fixed right-0 h-screen z-30 backdrop-blur-md bg-black/60 transition-all">
+
+        <ul class="text-white space-y-8 text-lg font-semibold absolute top-52 left-20">
+            <li @click="ShowMenu = !ShowMenu" class="hover:text-[#27AE60]"><a href="#home">Home</a></li>
+            <li @click="ShowMenu = !ShowMenu" class="hover:text-[#27AE60]"><a href="#sobre">Sobre</a></li>
+            <li @click="ShowMenu = !ShowMenu" class="hover:text-[#27AE60]"><a href="#tecnologias">Tecnologias</a></li>
+            <li @click="ShowMenu = !ShowMenu" class="hover:text-[#27AE60]"><a href="#projetos">Projetos</a></li>
+            <li @click="ShowMenu = !ShowMenu" class="hover:text-[#27AE60]"><a href="">Carreira</a></li>
+        </ul>
+
     </div>
 
     

@@ -3,10 +3,22 @@
         <h1 class="text-white text-3xl lg:text-4xl font-bold text-center mb-12"><span class="text-[#27AE60] font-bold">{{ '<' }}</span> Projetos <span class="text-[#27AE60] font-bold">{{ '/>' }}</span></h1>
 
         <div class="grid lg:grid-cols-2 gap-3">
-            <CardProjetos titulo="SmartHome" descricao="Landing page SmartHome" imagem="SmartHome.png" github="https://github.com/tonyalbert/HomeSmart-vue" deploy="https://home-smart-vue.vercel.app/" />
-            <CardProjetos titulo="Portfólio" descricao="Projeto de portfólio" imagem="portfolio.png" github="https://github.com" deploy="https://github.com" />
-            <CardProjetos titulo="Portfólio" descricao="Projeto de portfólio" github="https://github.com" deploy="https://github.com" />
-            <CardProjetos titulo="Portfólio" descricao="Projeto de portfólio" github="https://github.com" deploy="https://github.com" />
+            <CardProjetos 
+                titulo="SmartHome" 
+                descricao="Landing page SmartHome" 
+                imagem="SmartHome.png" 
+                github="https://github.com/tonyalbert/HomeSmart-vue" 
+                deploy="https://home-smart-vue.vercel.app/" 
+            />
+
+            <CardProjetos 
+                titulo="Portfólio" 
+                descricao="Projeto de portfólio" 
+                imagem="portfolio.png" 
+                github="https://github.com" 
+                deploy="https://github.com" 
+            />
+
         </div>
 
     </section>
