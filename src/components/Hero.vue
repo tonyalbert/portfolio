@@ -5,10 +5,8 @@
                 
                 <div class="flex border-2 border-[#202020] p-3 justify-center rounded-full">
                 <img
-                    @click="toggleImage"
                     class="rounded-full w-44 h-44 object-cover grayscale transform transition-transform"
-                    :class="{ 'rotate-180': isFlipped }"
-                    :src="currentImage"
+                    :src="Me"
                     alt=""
                 >
                 </div>
@@ -47,16 +45,11 @@ export default {
             me: Me,
             Arrow,
             isFlipped: false,
-            images: [
-                Me,
-                MeDraw  
-            ]
+            Me,
+                
         }
     },
     computed: {
-        currentImage() {
-            return this.images[this.isFlipped ? 1 : 0];
-        }
     },
     methods: {
         toggleImage() {
@@ -65,6 +58,7 @@ export default {
     }
 }
 </script>
+
 
 
 
