@@ -12,6 +12,14 @@
             />
 
             <CardProjetos 
+                titulo="Miles Morales page" 
+                descricao="Miles Morales landing page" 
+                imagem="miles.png" 
+                github="https://github.com/tonyalbert/miles-morales-page" 
+                deploy="https://miles-morales-page.vercel.app/" 
+            />
+
+            <CardProjetos 
                 titulo="Portfólio" 
                 descricao="Projeto de portfólio" 
                 imagem="portfolio.png" 
