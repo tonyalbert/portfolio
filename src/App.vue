@@ -5,6 +5,7 @@
     <Sobre />
     <Stack />
     <Projetos />
+    <Carreira />
     <Contato />
   </div>
 </template>
@@ -16,5 +17,6 @@ import Sobre from './components/Sobre.vue';
 import Stack from './components/Stack.vue';
 import Projetos from './components/Projetos.vue';
 import Contato from './components/Contato.vue';
+import Carreira from './components/Carreira.vue';
 
 </script>
